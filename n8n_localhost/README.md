@@ -94,40 +94,6 @@ docker compose logs -f n8n
 Replace placeholders with actual values once `.env` is set.
 
 ---
-## 9. FastAPI Endpoints
-| Method | Path | Purpose |
-|--------|------|---------|
-| GET | `/` | Hello world JSON |
-| GET | `/health` | Basic health check |
-
----
-## 10. Common Operations
-Stop stack:
-```bash
-docker compose down
-```
-Restart single service:
-```bash
-docker compose restart python-app
-```
-Full reset (DESTROYS local workflow & auth data):
-```bash
-docker compose down -v
-rm -rf data/* files/*
-```
-
----
-## 12. Database (SQLite)
-See `DB_ACCESS.md` for queries, backups, password rotation.
-
----
-## 13. Rotating a User Password (Summary)
-1. Generate bcrypt hash externally.
-2. Backup DB.
-3. `UPDATE user SET password='<hash>', updatedAt=STRFTIME('%Y-%m-%d %H:%M:%f','NOW') WHERE email='you@example.com';`
-4. Restart n8n.
-
----
 ## 16. Clean Removal
 ```bash
 docker compose down -v
