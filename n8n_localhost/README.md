@@ -18,7 +18,7 @@ Automated workflow platform (n8n) + example FastAPI service, exposed securely ov
 ## 2. Architecture
 ```
 ┌──────────┐    docker net     ┌─────────┐
-│  ngrok   │ ───────────────▶  │  n8n     │
+│  ngrok   │ ───────────────▶  │  n8n    │
 └──────────┘                   │(5678)   │
        │                       └─────────┘
  Public URL                         │
