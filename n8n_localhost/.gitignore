@@ -1,0 +1,14 @@
+.env
+
+# Data directories
+data/
+files/
+postgres-data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dependencies
+.venv/
+venv/

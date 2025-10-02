@@ -1,0 +1,12 @@
+# ngrok Configuration File for n8n
+# This file configures ngrok to create a secure tunnel from the public internet
+# to your local n8n instance running in Docker. It allows external services
+# to send webhooks and users to access n8n from anywhere via a public URL.
+
+version: "2" # ngrok configuration version
+log_level: warn # debug, describes the amount of output is shown in the logs.
+tunnels:
+  n8n: # define name of the tunnel
+    proto: http # Specify protocol for connection
+    addr: n8n:5678 # forward ngrok to container
+    domain: precious-peacock-boss.ngrok-free.app # DNS
