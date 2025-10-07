@@ -192,6 +192,8 @@ Trigger Node moeten vervangen door de Telegram 'Get a chat' trigger.
 Deze kun je vinden door op telegram te zoeken in de Nodes Panel, en door
 te klikken.
 
+<img width="578" height="676" alt="image" src="https://github.com/user-attachments/assets/9a77ed83-280a-41cf-931c-7a62ae48fd9b" />
+
 ![](media/image18.png)
 
 Ook voor telegram moet je een nieuwe credential aanmaken, door de
