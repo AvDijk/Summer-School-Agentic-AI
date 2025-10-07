@@ -192,7 +192,7 @@ Trigger Node moeten vervangen door de Telegram 'Get a chat' trigger.
 Deze kun je vinden door op telegram te zoeken in de Nodes Panel, en door
 te klikken.
 
-<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9a77ed83-280a-41cf-931c-7a62ae48fd9b" />
+
 
 Ook voor telegram moet je een nieuwe credential aanmaken, door de
 instructies te volgen :
@@ -230,6 +230,7 @@ Wanneer de flow goed is gerunned, wil je daar ook van op de hoogte
 worden gehouden. Verbind daarom de AI Agent met een 'Telegram, send a
 text message' node. Vul zelf de parameters in obv de input van de AI
 Agent (die kan je krijgen door een succesvolle executie te runnen).
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9a77ed83-280a-41cf-931c-7a62ae48fd9b" />
 
 Full flow
 
